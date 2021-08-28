@@ -1,0 +1,80 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: linear-gradient(0deg, #F0F2F0,#000C40);
+	font-family: Monaco,monospace;
+}
+.navbar
+{
+	position: fixed;
+	width: 100%;
+}
+.kolom
+{
+	float: left;
+	margin-top: 66px;
+	width: 50%;
+	height: 90vh;
+	color: white;
+}
+#kanan{
+	padding-right: 20px;
+}
+.kolom h1{
+	padding-top: 200px;
+}
+.kolom article{
+	text-align: justify;
+}
+.kolom a{
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	padding: 5px 10px;
+}
+.kolom a:hover{
+	background-color: white;
+	color: black;
+	transition: 0.7s;
+}
+.sosmed {
+	height: 100vh;
+}
+.cards {
+	color: black;
+	height: 250px;
+	width: 22%;
+	float: left;
+	justify-content: center;
+	border: 5px solid black;
+	margin: 30px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.hover{
+	color: black;
+	text-decoration: none;
+	border: 3px solid black;
+	padding: 10px;
+	border-radius: 10px;
+}
+.hover:hover{
+	background-color: grey;
+	color: white;
+}
+.cards img {
+	width: 100px;
+	height: 100px;
+}
+.isicard{
+	margin: 10px;
+}
+@media screen and (max-width:600px) {
+  .kolom {
+    width: 100%;
+  }
+}
